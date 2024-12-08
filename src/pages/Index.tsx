@@ -1,26 +1,27 @@
 import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
+import { Github, Twitter, Briefcase, Linkedin } from "lucide-react";
 
 const links = [
   {
     title: "Portfolio",
     url: "#",
-    icon: "🎨"
+    icon: <Briefcase className="w-5 h-5" />
   },
   {
     title: "Twitter",
     url: "#",
-    icon: "🐦"
+    icon: <Twitter className="w-5 h-5" />
   },
   {
     title: "GitHub",
     url: "#",
-    icon: "💻"
+    icon: <Github className="w-5 h-5" />
   },
   {
     title: "LinkedIn",
     url: "#",
-    icon: "📱"
+    icon: <Linkedin className="w-5 h-5" />
   }
 ];
 
@@ -68,7 +69,7 @@ const Index = () => {
             >
               <div className="flex items-center justify-between">
                 <span className="font-medium">{link.title}</span>
-                <span className="text-xl">{link.icon}</span>
+                {link.icon}
               </div>
             </motion.a>
           ))}
