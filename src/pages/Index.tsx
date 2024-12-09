@@ -46,12 +46,12 @@ const Index = () => {
         <div className="text-center space-y-4">
           <div className="relative w-24 h-24 mx-auto">
             <img
-              src="/placeholder.svg"
+              src="/profile_image.jpg"
               alt="Profile"
               className="rounded-full object-cover w-full h-full"
             />
           </div>
-          <h1 className="text-2xl font-semibold">Your Name</h1>
+          <h1 className="text-2xl font-semibold">Mark Mueller</h1>
           <p className="text-sm text-foreground/60">Digital Creator & Developer</p>
         </div>
 
@@ -82,7 +82,7 @@ const Index = () => {
           transition={{ delay: 0.8 }}
           className="text-center text-sm text-foreground/60 pt-8"
         >
-          Made with ♥️ using Lovable
+          Made by Yellow Umbrella Creative
         </motion.footer>
       </motion.div>
     </div>
