@@ -46,7 +46,7 @@ const Index = () => {
         <div className="text-center space-y-4">
           <div className="relative w-24 h-24 mx-auto">
             <img
-              src="/profile_image.jpg"
+              src="/profile_image.JPG"
               alt="Profile"
               className="rounded-full object-cover w-full h-full"
             />
