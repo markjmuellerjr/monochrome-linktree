@@ -2,7 +2,7 @@
 
 ## Project info
 
-**URL**: [https://lovable.dev/projects/988b08dd-4bac-419a-9004-fd6e00d5741d](https://monochrome-linktree.vercel.app/)
+**URL**: (https://monochrome-linktree.vercel.app/)
 
 ## How can I edit this code?
 
