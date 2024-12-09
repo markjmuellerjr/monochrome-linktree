@@ -1,26 +1,26 @@
 import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
-import { Github, Twitter, Briefcase, Linkedin } from "lucide-react";
+import { Github, Twitter, Briefcase, Linkedin, Youtube } from "lucide-react";
 
 const links = [
   {
     title: "Portfolio",
-    url: "#",
+    url: "https://www.yellowumbrella.co",
     icon: <Briefcase className="w-5 h-5" />
   },
   {
-    title: "Twitter",
-    url: "#",
-    icon: <Twitter className="w-5 h-5" />
+    title: "Youtube - Coming Soon",
+    url: "https://www.youtube.com",
+    icon: <Youtube className="w-5 h-5" />
   },
   {
     title: "GitHub",
-    url: "#",
+    url: "https://github.com/markjmuellerjr",
     icon: <Github className="w-5 h-5" />
   },
   {
     title: "LinkedIn",
-    url: "#",
+    url: "https://www.linkedin.com/in/markjmuellerjr",
     icon: <Linkedin className="w-5 h-5" />
   }
 ];
