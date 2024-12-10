@@ -2,10 +2,10 @@ media:
   input: src/public
   output: /
 content:
-  - name: posts
-    label: Posts
+  - name: links
+    label: Links
     type: collection
-    path: '_posts'
+    path: '_links'
     view:
       fields: [ title, url, icon ]
     fields:
