@@ -22,7 +22,7 @@ const links = [
     title: "LinkedIn",
     url: "https://www.linkedin.com/in/markjmuellerjr",
     icon: <Linkedin className="w-5 h-5" />
-  }
+  },
   {
     title: "Buy Me A Coffee",
     url: "https://www.buymeacoffee.com/markjmuellerjr",
