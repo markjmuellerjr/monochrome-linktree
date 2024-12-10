@@ -40,12 +40,15 @@ const Index = () => {
   if (!mounted) return null;
 
   return (
-    <div className="min-h-screen bg-background text-foreground flex flex-col items-center justify-start py-16 px-4">
+    <div className="min-h-screen bg-background text-foreground flex flex-col items-center justify-start py-16 px-4 relative">
+      {/* Geometric Background Pattern */}
+      <div className="absolute inset-0 bg-[linear-gradient(to_right,#1a1a1a_1px,transparent_1px),linear-gradient(to_bottom,#1a1a1a_1px,transparent_1px)] bg-[size:4rem_4rem] [mask-image:radial-gradient(ellipse_60%_50%_at_50%_0%,#000_70%,transparent_100%)] opacity-20" />
+      
       <motion.div
         initial={{ scale: 0.9, opacity: 0 }}
         animate={{ scale: 1, opacity: 1 }}
         transition={{ duration: 0.3 }}
-        className="w-full max-w-md space-y-8"
+        className="w-full max-w-md space-y-8 relative z-10"
       >
         {/* Profile Section */}
         <div className="text-center space-y-4">
@@ -66,7 +69,7 @@ const Index = () => {
             <motion.a
               key={index}
               href={link.url}
-              className="link-card block p-4 rounded-lg border border-border/50 bg-secondary/50 
+              className="link-card block p-4 rounded-lg border border-border/50 bg-secondary/50 backdrop-blur-sm
                        hover:bg-secondary transition-all duration-300 ease-in-out"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
