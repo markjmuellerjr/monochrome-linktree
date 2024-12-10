@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
-import { Github, Twitter, Briefcase, Linkedin, Youtube } from "lucide-react";
+import { Github, Twitter, Briefcase, Linkedin, Youtube, Coffee } from "lucide-react";
 
 const links = [
   {
@@ -22,6 +22,11 @@ const links = [
     title: "LinkedIn",
     url: "https://www.linkedin.com/in/markjmuellerjr",
     icon: <Linkedin className="w-5 h-5" />
+  }
+  {
+    title: "Buy Me A Coffee",
+    url: "https://www.buymeacoffee.com/markjmuellerjr",
+    icon: <Coffee className="w-5 h-5" />
   }
 ];
 
