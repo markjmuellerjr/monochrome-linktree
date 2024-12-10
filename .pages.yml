@@ -1,5 +1,5 @@
 media:
-  input: src/public
+  input: /public
   output: /
 content:
   - name: links
